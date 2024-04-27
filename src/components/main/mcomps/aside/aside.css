@@ -1,0 +1,16 @@
+
+/*Aside*/
+
+.aside {
+    grid-area: aside;
+    width: 11vw;
+}
+
+.aside-item-end {
+    width: 150px;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    background: url(../../../../../public/image/9.png) no-repeat;
+    background-size: cover;
+}

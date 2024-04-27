@@ -1,0 +1,43 @@
+
+/* Article*/
+
+.article {
+    grid-area: article;
+    width: 12vw;
+    padding-left: 15px;
+}
+
+
+.article__nav {
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.container-nav {  
+    padding: 27px 0 27px;
+}
+
+
+
+.nav {
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-nav__nav {
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nav__nav-link {
+    font-size: 16px;
+    line-height: 16px;
+    color: #666666;
+}
+
+

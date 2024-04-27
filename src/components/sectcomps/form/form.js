@@ -5,7 +5,7 @@ export default function Service() {
                     <h2 class="main-heading">
                         Нужна помощь по бронированию?
                     </h2>
-                    <form action="https://jsonplaceholder.typicode.com/posts" class="forma">
+                    <form action="" method="get" class="forma">
                         <div class="content city">
                             <p class="form-heading">
                                 Всегда поможем найти лучшее решение

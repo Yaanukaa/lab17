@@ -6,7 +6,7 @@ export default function Footer() {
         <div class="container footer-container">
             <div class="footer-content">
                 <p class="footer-description">
-                    &copy 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс»
+                    © 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс»
                 </p>
                 <p class="footer-description">
                     Представленная на сайте информация носит справочный характер и не является публичной офертой

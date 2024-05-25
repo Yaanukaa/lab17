@@ -18,11 +18,11 @@ export function Article() {
                     <Route path="/service" element={<Service />} />
                 </Routes>
             </BrowserRouter>
-                 < About />
+                 {/* < About />
                 < News />
                 < Service />
                 < Form />
-                < Contacts />
+                < Contacts /> */}
         </section>
         
     );

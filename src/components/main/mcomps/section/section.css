@@ -3,7 +3,6 @@
 
 .section {
     grid-area: section;
-    width: 12vw;
     padding-left: 15px;
 }
 
@@ -11,6 +10,8 @@
 .section__nav {
     background: #FFFFFF;
     border-radius: 15px;
+    max-width: 288px;
+    margin: auto;
 }
 
 .container-nav {  

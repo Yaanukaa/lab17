@@ -3,12 +3,14 @@
 
 .aside {
     grid-area: aside;
-    width: 11vw;
+
 }
 
 .aside-item-end {
-    width: 150px;
+    margin: auto;
+    max-width: 250px;
     height: 250px;
+    width: 100%;
     background-color: white;
     border-radius: 15px;
     background: url(../../../../../public/image/9.png) no-repeat;

@@ -205,64 +205,6 @@ html {
    padding-left: 7px;
 }
 
-/*Main*/
-
-.main {
-    display: grid;
-    grid-template-areas: "article section aside";
-}
-
-
-/* Article*/
-
-.article {
-    grid-area: article;
-    width: 12vw;
-    padding-left: 15px;
-}
-
-
-.article__nav {
-    background: #FFFFFF;
-    border-radius: 15px;
-}
-
-.container-nav {  
-    padding: 27px 0 27px;
-}
-
-
-
-.nav {
-    display: flex;
-    padding: 5px;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.container-nav__nav {
-    display: flex;
-    padding: 5px;
-    justify-content: space-around;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.nav__nav-link {
-    font-size: 16px;
-    line-height: 16px;
-    color: #666666;
-}
-
-
-
-/* Section */
-
-.section {
-    grid-area: section;
-    width: 76vw;
-}
-
 
 
 /* about-us */
@@ -579,22 +521,6 @@ html {
     border-radius: 10px;
 }
 
-
-/*Aside*/
-
-.aside {
-    grid-area: aside;
-    width: 11vw;
-}
-
-.aside-item-end {
-    width: 150px;
-    height: 250px;
-    background-color: white;
-    border-radius: 15px;
-    background: url(../public/image/9.png) no-repeat;
-    background-size: cover;
-}
 
 /*         Footer          */
 

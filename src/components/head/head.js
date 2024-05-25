@@ -5,7 +5,6 @@ import "./head.css";
 export default function Head() {
     return (
         <header className="header">
-            <BrowserRouter>
                 <div class="container header__container">
                     <div class="head header__head">
                         < Link to="/" class="head__logo-link">
@@ -14,7 +13,6 @@ export default function Head() {
                     </div>
                     
                 </div>
-                </BrowserRouter>
             </header>
     );
 }

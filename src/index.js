@@ -4,11 +4,13 @@ import './normalize.css';
 import './index.css';
 import './style.css';
 import App from './App';
+import { BrowserRouter } from 'react-router-dom'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div className='index'>
+    <BrowserRouter>
     <App />
+  </BrowserRouter>,
  </div>
 );
-

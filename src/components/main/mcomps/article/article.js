@@ -9,7 +9,6 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 export function Article() {
     return (
         <section class="article">
-                <BrowserRouter>
                 <Routes>
                     <Route path="/news" element={<News />} />
                     <Route path="/about" element={<About />} />
@@ -17,7 +16,6 @@ export function Article() {
                     <Route path="/form" element={<Form />} />
                     <Route path="/service" element={<Service />} />
                 </Routes>
-            </BrowserRouter>
                  {/* < About />
                 < News />
                 < Service />
